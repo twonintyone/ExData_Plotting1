@@ -32,5 +32,5 @@ legend("topright",
        cex = 0.8,
        bty = "n")
 with(data1, plot(nTime, Global_reactive_power, xlab = "datetime", type = "l"))
-dev.copy(png, file = "plot4.png")
+dev.copy(png, file = "plot4.png", width = 480, height = 480)
 dev.off()
